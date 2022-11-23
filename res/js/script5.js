@@ -7,8 +7,7 @@ function responder(){
     document.addEventListener("keyup", function(e){
         if (e.key === "Enter"){
             resposta = document.getElementById('res').value;
-            if (resposta == "pascoa" || resposta == "Pascoa" || resposta == "PASCOA" ||
-                resposta == "páscoa" || resposta == "Páscoa" || resposta == "PÁSCOA"){
+            if (resposta == "obstetra" || resposta == "Obstetra" || resposta == "OBSTETRA"){
                 location.assign('index6.html');
             }
             else{
