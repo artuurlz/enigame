@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/*
+black = #191C21, #404040, #8C8979
+red = #F60A20
+white = #F2F2F2, #dcdde1
+*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+}
+
+body
+{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #191C21;
+}
+
+.caixa-principal
+{
+    position: absolute;
+    display: flex;
+    top: 50%; left: 50%; transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #F2F2F2;
+    letter-spacing: 4px;
+    font-size: .7em;
+    font-weight: 100;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.caixa-principal h1 strong
+{
+    color: #F60A20;
+}
+
+.caixa-principal h2 strong
+{
+    color: #191C21;
+}
+
+.caixa-principal h2
+{
+    color: #F60A20;
+}
+
+.caixa-principal h3
+{
+    color: #dcdde1;
+}
+
+.caixa-principal input
+{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #dcdde1;
+    color: #dcdde1;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 500;
+}
+
+.caixa-principal input:hover
+{
+    border: 2px solid #F60A20;
+    color: #F2F2F2;
+}
+
+#res
+{
+    text-align: center;
+    transition: 1s;
+    display: none;
+    border: 2px solid #F60A20;
+    outline: none;
+    color: #F60A20;
+}
